@@ -7164,3 +7164,18 @@ end*
   height: 100%;
   object-fit: contain;
 }
+
+@media (max-width: 1200px) {
+  .tp-counter-area .tp-counter-grids .grid,
+  .tp-counter-style-2 .tp-counter-grids .grid {
+    width: 48%; /* More space between columns on tablets */
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tp-counter-area .tp-counter-grids .grid,
+  .tp-counter-style-2 .tp-counter-grids .grid {
+    width: 100%; /* Stack vertically on small devices */
+  }
+}
